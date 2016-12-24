@@ -20,7 +20,7 @@
     personInput.addEventListener('keyup', setName);
 
     personInput.value = name;
-    window.document.title = 'All I want for Christmas is ${name}';
+    window.document.title = 'All I want for Christmas is '+ name;
     setNameAudio();
 
     if ( window.innerWidth < 450 ){
