@@ -42,7 +42,7 @@
 
     voice = 'usenglishmale',
         speed = 0,
-        apiKey = '34b06ef0ba220c09a817fe7924575123';
+        apiKey = //myapikey;
 
     var nameSrc = 'https://api.ispeech.org/api/rest' +
         '?apikey=' + apiKey +
