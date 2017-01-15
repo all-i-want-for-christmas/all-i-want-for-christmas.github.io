@@ -1,5 +1,5 @@
 (function() {
-    var name = decodeURIComponent(window.location.hash.slice(1)) || 'matthew';
+    var name = window.location.hash.slice(1) || 'matthew';
 
     var music1 = document.getElementById('music1'),
         music2 = document.getElementById('music2'),
